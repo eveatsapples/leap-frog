@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+    background: black;
+}
+#scoreboard {
+    transform: translate(0px, 100px);
+}
