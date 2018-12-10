@@ -1,8 +1,1 @@
-body {
-    text-align: center;
-    background: black;
-}
-#scoreboard {
-    -webkit-transform: translate(0px, 100px);
-    transform: translate(0px, 100px);
-}
+body{text-align:center;background:#000}#scoreboard{-webkit-transform:translate(0,100px);transform:translate(0,100px)}
