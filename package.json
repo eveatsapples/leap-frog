@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eveatsapples/leap-frog#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0"
   }
 }
