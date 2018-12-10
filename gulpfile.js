@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
 
 gulp.task('prefix', () =>
     gulp.src('src/css/*.css')
@@ -31,5 +32,11 @@ gulp.task('img-min', () =>
                 ]
             })
         ]))
-        .pipe(gulp.dest('dist/images'))
+        .pipe(gulp.dest('dist/images/'))
 );
+ 
+gulp.task('concat-js', function() {
+  return gulp.src(['src/js/resources.js', 'src/js/app.js', 'src/js/engine.js'])
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('./dist/js/'));
+});
