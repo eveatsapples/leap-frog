@@ -66,3 +66,13 @@ gulp.task('copy', () => {
     gulp.src('src/index.html')
     .pipe(gulp.dest('dist/'))   
 })
+
+gulp.task('default', () => {
+    gulp.watch('src/css/*.css', ['prefix']);
+    gulp.watch('',[]);
+    gulp.watch('',[]);
+    gulp.watch('',[]);
+    gulp.watch('',[]);
+    gulp.watch('',[]);
+
+})
