@@ -1,5 +1,4 @@
-HOW TO RUN THE FILE
-Clone the repository and in the src directory open up the index.html in the browser. Ignore the dist folder for now.
+Please go to https://eveatsapples.github.io/leap-frog/ to play this game
 
 HOW THE GAME WORKS
 Each time you get to the portal on the other side your score your
