@@ -3,6 +3,5 @@ body {
     background: black;
 }
 #scoreboard {
-    -webkit-transform: translate(0px, 100px);
     transform: translate(0px, 100px);
 }
